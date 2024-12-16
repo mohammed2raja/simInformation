@@ -1,0 +1,15 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["jest"]
+  },
+  "include": [
+    "src/**/*",
+    "react-native-android-sms-listener.d.ts"
+  ]
+  
+}
